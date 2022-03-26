@@ -7,13 +7,24 @@
 
 /* Type */
 body{
-    position: relative;
+    /* position: relative; */
     font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+}
+
+p{
+    font-size: 13px;
 }
 
 /* Commons */
 .container{
     max-width: 1080px;
+    margin: auto;
 }
 
 .big-container{
@@ -44,7 +55,7 @@ a{
 
 /* Header */
 header{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     line-height: 50px;
 }
@@ -69,4 +80,39 @@ header{
 nav ul li{
     display: inline-block;
     padding: 0 15px;
+}
+    
+/* ------------MAIN------------ */
+
+
+/* Hero */
+.hero{
+    background-color: #b4d0e7;
+}
+
+.row{
+  position: relative;
+  bottom: -65px;
+}
+.col-left, .col-right{
+    float: left;
+}
+
+.col-left{
+    width: 40%;
+    padding-right: 70px;
+}
+
+.col-right{
+    width: 60%;
+    object-fit: contain;
+}
+
+.jumbo{
+    width: 100%;
+}
+
+.fa-arrow-down, .fa-arrow-down{
+    font-size: 50px;
+    margin-top: 30px;
 }
