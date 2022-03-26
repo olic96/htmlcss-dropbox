@@ -118,7 +118,7 @@ nav ul li{
 /* ------------MAIN------------ */
 
 
-/* Hero */
+/* HERO */
 .hero{
     background-color: #b4d0e7;
 }
@@ -150,7 +150,7 @@ nav ul li{
     margin-top: 30px;
 }
 
-/* Section 2 */
+/* SECTION 2 */
 .section-2{
     margin-top: 80px;
 }
@@ -159,19 +159,20 @@ nav ul li{
     margin-top: 50px;
 }
 
+/* section top: col left, middle, right */
 .row-2{
     margin-top: 40px;
 }
 
 .col-left-2, .col-middle-2, .col-right-2{
     float: left;
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 20px);
     min-height: 900px;
     border: solid rgb(188, 199, 210);
 }
 
 .col-middle-2{
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 .top-col{
@@ -203,5 +204,36 @@ nav ul li{
 
 .prova-gratis{
     margin: 30px 30px;
+}
+
+/* section bottom */
+.section-bottom{
+    margin-top: 30px;
+    border: solid rgb(188, 199, 210) ;
+}
+.row-top{
+    text-align: center;
+    padding: 5px;
+    border-bottom: solid rgb(188, 199, 210);
+
+}
+.col-bottom-left-2{
+    float: left;
+}
+
+.col-bottom-right-2{
+    float: right;
+}
+
+.col-bottom-left-2{
+    width: 70%;
+}
+
+.col-bottom-right-2{
+    width: 30%;
+}
+
+.enterprise, .contatta{
+    padding: 20px 10px;
 }
 
