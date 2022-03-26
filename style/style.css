@@ -7,6 +7,7 @@
 
 /* Type */
 body{
+    position: relative;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -19,9 +20,53 @@ body{
     max-width: 1300px;
 }
 
-.clearfix{
+.btn{
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-blu{
+    background-color: #0061ff;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
+/* Header */
+header{
+    position: fixed;
+    width: 100%;
+    line-height: 50px;
+}
+
+.logo{
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.logo, .nav-left{
+    float: left;
+}
+
+.nav-left{
+    margin-left: 30px;
+}
+
+.nav-right{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
