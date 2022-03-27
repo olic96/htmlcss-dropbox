@@ -80,6 +80,12 @@ hr{
     color: white;
 }
 
+.btn-white{
+    background-color: white;
+    color: black;
+    border: solid black;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -237,3 +243,31 @@ nav ul li{
     padding: 20px 10px;
 }
 
+
+/* SECTION 3 */
+.section-3{
+    margin-top: 80px;
+}
+.col-left-3, .col-right-3{
+    float: left;
+}
+
+.col-right-3{
+    width: calc(40% - 20px);
+    margin: 50px 0;
+    margin-left: 20px;
+}
+
+.col-left-3{
+    width: calc(60% - 20px);
+    margin: 20px 0;
+    margin-right: 20px;
+}
+
+.partner{
+    width: 100%;
+}
+
+.entra-in-contatto, .trova-partner{
+    margin-bottom: 20px;
+}
