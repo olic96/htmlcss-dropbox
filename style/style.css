@@ -162,7 +162,7 @@ nav ul li{
 }
 
 .radio{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* section top: col left, middle, right */
@@ -382,3 +382,31 @@ nav ul li{
     width: 100%;
 }
 
+/* SECTION 6 */
+.section-6{
+    background-color:#b4d0e7 ;
+}
+
+.row-6{
+    width: 100%;
+}
+
+.col-left-6, .col-right-6{
+    float: left;
+    width: 60%;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.col-left-6{
+    color: rgb(77, 22, 77);
+}
+
+.col-right-6{
+    width: 40%;
+    text-align: right;
+}
+
+.col-right-6 > .btn{
+    border: 0;
+}
