@@ -299,7 +299,7 @@ nav ul li{
 }
 
 .row-section-square-color{
-    width: 100vw;
+    width: 100%;
 }
 
 .col-color-left, .col-color-mid, .col-color-right{
@@ -307,29 +307,28 @@ nav ul li{
 }
 
 .col-color-mid{
-    width: calc(100vw - 60vw);
-    height: 100%;
+    width: 50%;
     background-color:rgb(216, 225, 233);
 }
 
 .col-color-left, .col-color-right{
-    width: 30vw;
+    width: 25%;
 }
 
 .square{
     float: left;
-    width: calc(30vw / 2);
-    height: calc(30vw / 2);
+    max-width: 50%;
+    min-height: 100%;
+    position: relative;
 }
 
 #asu, #clear, #designit, #hearst, #lonely, #radio, #topps, #uf, #world{
-   width: calc(100% / 1.5);
-  
+  width: 100%;
+  height: 100%;
 }
 
 .designit, .asu, .uf, .world, .lonely, .clear-c, .topps, .hearst{
-    margin-top: 5vh;
-    margin-left: 4vw;
+  object-fit: contain;
 }
 
 .green{
@@ -362,15 +361,5 @@ nav ul li{
 
 .yellow{
     background-color: yellow;
-}
-
-.contenent{
-    width: 80%;
-    padding: 40px 25px;
-}
-
-.designit-mid{
-    width: 150px;
-    height: 90px;
 }
 
