@@ -9,14 +9,10 @@
 body{
     /* position: relative; */
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
 
-h1, h2, h4, h5{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    
-}
 
 h1{
     font-size: 55px;
@@ -329,7 +325,6 @@ nav ul li{
 
 #asu, #clear, #designit, #hearst, #lonely, #radio, #topps, #uf, #world{
    width: calc(100% / 1.5);
-  
 }
 
 .designit, .asu, .uf, .world, .lonely, .clear-c, .topps, .hearst{
@@ -409,4 +404,29 @@ nav ul li{
 
 .col-right-6 > .btn{
     border: 0;
+}
+
+/* SECTION 7 */
+.section-7{
+    margin-top: 80px;
+}
+
+.section-7 > .small-container{
+    line-height: 60px;
+    
+}
+
+.section-7 > .small-container > h4{
+    padding-bottom: 30px;
+}
+
+.faq{
+    border-top: solid rgb(216, 225, 233);
+    padding-top: 23px;
+    padding-right: 500px;
+}
+
+.last{
+    border-bottom: solid rgb(216, 225, 233);
+    padding-bottom: 23px;
 }
