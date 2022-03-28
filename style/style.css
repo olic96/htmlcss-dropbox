@@ -293,13 +293,18 @@ nav ul li{
 }
 
 /* SECTION 5 */
+.section-5{
+    margin-top: 80px;
+}
+
 .scopri{
     text-decoration: underline;
     color:#0061ff ;
 }
 
 .row-section-square-color{
-    width: 100%;
+    width: 100vw;
+    margin-top: 30px;
 }
 
 .col-color-left, .col-color-mid, .col-color-right{
@@ -307,28 +312,29 @@ nav ul li{
 }
 
 .col-color-mid{
-    width: 50%;
+    width: 40vw;
+    height: 55vh;
     background-color:rgb(216, 225, 233);
 }
 
 .col-color-left, .col-color-right{
-    width: 25%;
+    width: 30vw;
 }
 
 .square{
     float: left;
-    max-width: 50%;
-    min-height: 100%;
-    position: relative;
+    width: calc(30vw / 2);
+    height: calc(30vw / 2);
 }
 
 #asu, #clear, #designit, #hearst, #lonely, #radio, #topps, #uf, #world{
-  width: 100%;
-  height: 100%;
+   width: calc(100% / 1.5);
+  
 }
 
 .designit, .asu, .uf, .world, .lonely, .clear-c, .topps, .hearst{
-  object-fit: contain;
+    margin-top: 5vh;
+    margin-left: 4vw;
 }
 
 .green{
@@ -361,5 +367,18 @@ nav ul li{
 
 .yellow{
     background-color: yellow;
+}
+
+.contenent{
+    width: 80%;
+    padding: 80px 55px;
+}
+
+.designit-mid{
+    width: 27%;
+}
+
+#designit-mid{
+    width: 100%;
 }
 
