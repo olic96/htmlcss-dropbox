@@ -326,6 +326,7 @@ nav ul li{
 
 #asu, #clear, #designit, #hearst, #lonely, #radio, #topps, #uf, #world{
    width: 100px;
+   filter: invert(100%);
 }
 
 .designit, .asu, .uf, .world, .lonely, .clear-c, .topps, .hearst{
