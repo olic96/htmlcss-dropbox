@@ -437,3 +437,32 @@ nav ul li{
 /* ----------------------------- */
 
 /* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.row-footer{
+    margin-top: 80px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5{
+    float: left;
+    margin-top: 50px;
+    width: 19%;
+}
+
+.row-footer ul li{
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.bottom{
+    margin-top: 50px;
+    color: azure;
+}
+
+.lingua{
+    margin-top:25px;
+    padding-bottom: 25px;
+}
