@@ -7,7 +7,6 @@
 
 /* Type */
 body{
-    /* position: relative; */
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
@@ -90,9 +89,12 @@ hr{
 
 /* Header */
 header{
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     line-height: 50px;
+    background-color: white;
+    z-index: 10;
+    margin-bottom: 56px;
 }
 
 .logo{
@@ -123,6 +125,7 @@ nav ul li{
 /* HERO */
 .hero{
     background-color: #b4d0e7;
+    padding-top: 70px;
 }
 
 .row{
@@ -415,8 +418,26 @@ nav ul li{
     margin-top: 80px;
 }
 
+.row-faq{
+    border-top: solid rgb(216, 225, 233);
+}
+
+.row-faq > .faq{
+    font-weight: bold;
+}
+
+.col-faq-left{
+    float: left;
+    width: 95%;
+}
+
+.col-faq-right{
+    float: right;
+    width: 5%;
+}
+
 .section-7 > .small-container{
-    line-height: 60px;
+    line-height: 20px;
     
 }
 
@@ -425,21 +446,25 @@ nav ul li{
 }
 
 .faq{
-    border-top: solid rgb(216, 225, 233);
     padding-top: 23px;
-    padding-right: 500px;
+    padding-bottom: 23px ;
 }
 
 .last{
-    border-bottom: solid rgb(216, 225, 233);
-    padding-bottom: 23px;
+    border-bottom: solid rgb(216, 225, 233); 
 }
+
+.freccia{
+   padding-top: 25px;
+   border-top: rgb(216, 225, 233);
+}
+
 /* ----------------------------- */
 
 /* FOOTER */
 footer{
     background-color: black;
-    color: white;
+    color: azure;
 }
 
 .row-footer{
@@ -459,7 +484,6 @@ footer{
 
 .bottom{
     margin-top: 50px;
-    color: azure;
 }
 
 .lingua{
