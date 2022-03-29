@@ -161,7 +161,6 @@ nav ul li{
     margin-top: 30px;
 }
 
-/* section top: col left, middle, right */
 .row-2{
     margin-top: 40px;
 }
@@ -309,7 +308,8 @@ nav ul li{
 
 .col-color-mid{
     width: 40vw;
-    height: 55vh;
+    height: 30vw;
+    overflow: auto;
     background-color:rgb(216, 225, 233);
 }
 
@@ -318,18 +318,21 @@ nav ul li{
 }
 
 .square{
+    position: relative;
     float: left;
     width: calc(30vw / 2);
     height: calc(30vw / 2);
 }
 
 #asu, #clear, #designit, #hearst, #lonely, #radio, #topps, #uf, #world{
-   width: calc(100% / 1.5);
+   width: 100px;
 }
 
 .designit, .asu, .uf, .world, .lonely, .clear-c, .topps, .hearst{
-    margin-top: 5vh;
-    margin-left: 4vw;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 .green{
@@ -366,7 +369,7 @@ nav ul li{
 
 .contenent{
     width: 80%;
-    padding: 80px 55px;
+    padding: 50px 40px;
 }
 
 .designit-mid{
@@ -430,3 +433,6 @@ nav ul li{
     border-bottom: solid rgb(216, 225, 233);
     padding-bottom: 23px;
 }
+/* ----------------------------- */
+
+/* FOOTER */
